@@ -7,7 +7,7 @@
 	<version>1.0-SNAPSHOT</version>
 	<name>Spring3Example</name>
 	<url>http://maven.apache.org</url>
-
+<!--
 	<properties>
 		<spring.version>3.0.5.RELEASE</spring.version>
 	</properties>
@@ -20,7 +20,7 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- Spring 3 dependencies -->
+		
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
@@ -33,7 +33,7 @@
 			<version>${spring.version}</version>
 		</dependency>
 
-		<!-- Spring AOP + AspectJ -->
+		
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-aop</artifactId>
@@ -52,18 +52,13 @@
 			<version>1.6.11</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
-		<!-- https://mvnrepository.com/artifact/commons-collections/commons-collections -->
-		<!-- <dependency> <groupId>commons-collections</groupId> <artifactId>commons-collections</artifactId> 
-			</dependency> -->
-
-
-		<!-- JavaConfig need this library -->
+		
 		<dependency>
 			<groupId>cglib</groupId>
 			<artifactId>cglib</artifactId>
 			<version>2.2.2</version>
 		</dependency>
-
+ 
 	</dependencies>
+	Spring 3 dependencies -->
 </project>
